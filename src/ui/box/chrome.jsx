@@ -238,7 +238,7 @@ export default class Chrome extends React.Component {
       <div className={className}>
         <Header title={title} name={name} backHandler={backHandler && ::this.handleBack} backgroundUrl={backgroundUrl} backgroundColor={primaryColor} logoUrl={logo}/>
         <ReactCSSTransitionGroup
-          transitionName="a0-global-message"
+          transitionName="a0-anim-global-message"
           transitionEnterTimeout={MESSAGE_ANIMATION_DURATION}
           transitionLeaveTimeout={MESSAGE_ANIMATION_DURATION}
         >
